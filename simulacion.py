@@ -178,7 +178,7 @@ def simulacion_ejercicio1(Nsim):
     plt.xlabel('Tiempo de Fallo en Meses')
     plt.ylabel('Frecuencia')
     plt.grid(True)
-    plt.show()
+    plt.savefig('Ejercicio 1.png')
 
 
 def simulacion_ejercicio2(Nsim):
@@ -224,7 +224,7 @@ def simulacion_ejercicio2(Nsim):
     plt.xlabel('Tiempo de Fallo')
     plt.ylabel('Frecuencia')
     plt.grid(True)
-    plt.show()
+    plt.savefig('Ejercicio 2.png')
 
 
 def main():
